@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: darkcyan;
+    font-family: cursive;
+  }
+
+  .container {
+    position: relative;
+    top: 15vh;
+    border-radius: 15px;
+    height: 80vh;
+    box-shadow:5px 5px 10px 0 ;
+
+  }
+  .container form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    background-color: aliceblue;
+    border-radius: 15px;
+  }
+  input{
+    font-size: larger;
+    background-color: aliceblue;
+    font-weight: 600;
+    margin-bottom: 1vh;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    transition: border-bottom 0.3s;
+  }
+  
+  input:hover {
+    border-bottom: 2px solid black;
+  }
+
+  div{
+  background-color: aliceblue;  
+
+    width: 60vh;
+
+  }
+
+ 
+  h1{
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding-top: 10vh;
+
+  }
+.sign_up_link{
+  margin-top: 40vh;
+ }
+
+ button {
+  margin-top: 5vh;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color:  darkcyan;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+button:hover {
+  background-color: #2980b9;
+}
+
+a {
+  background-color: aliceblue;
+  color: #3498db;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s;
+}
+
+a:hover {
+  border-bottom: 2px solid #3498db;
+}
+p{
+  background-color: aliceblue;
+}

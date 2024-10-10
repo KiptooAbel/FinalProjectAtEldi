@@ -1,0 +1,143 @@
+/* .list{
+   max-height: 80vh;
+   overflow-y: scroll; 
+  }*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: white;
+  font-family: cursive;
+}
+
+ div#head{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 10vh;
+  background-color: darkcyan;
+  box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.5);
+}
+#menu{
+  position: static;
+  margin-top: 3vh;
+  background-color: darkcyan;
+
+
+}
+
+
+ ul#menu li {
+  display: inline;
+  margin-left: 25vh;
+  background-color: darkcyan;
+}
+li a{
+  color: black;
+  text-decoration: none;
+  background-color: darkcyan;
+  font-size: larger;
+
+}
+
+.material-symbols-outlined{
+  float:right;
+  margin-top: 2vh;
+  margin-right: 2vh;
+  background-color: darkcyan;
+
+  }
+
+
+@media screen and (max-width: 730px) {
+  ul#menu li {
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 730px) {
+ 
+ #drop_menuIcon{
+  display: none;
+}
+  #close_menuIcon{
+    display: none;
+}
+#drop_menu{
+  display: none;
+}
+
+}
+
+#drop_menu{
+  background:white;
+  position: fixed;
+  top: 10vh;
+  min-width: 60vh;
+  height: 100vh;
+  text-align: center;
+  box-shadow:2px 4px 30px 1px ;
+  animation: slideRight 2s forwards;
+  }
+@keyframes slideRight{
+  0%{
+    left: -60vh;
+  }
+  100%{
+    left:0;
+  }
+
+  }
+#close_menuIcon:active{
+  animation:slideleft 2s backwards ;
+}
+@keyframes slideleft{
+  0%{
+    left: 0;
+  }
+  100%{
+    left:-60vh;
+  }
+
+  }
+
+.list li{
+padding: 5vh;
+border-bottom: 2px solid grey;
+
+}
+
+.list li a{
+ background:white;
+ color: rgb(25, 23, 23);
+ font-weight: 500;
+ font-size:x-large ;
+}
+
+.briem-hand-.list li a {
+  font-family: "Briem Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.log_in_option{
+  float: right;
+  margin-right: 7vh;
+}
+
+
+
+ul li:hover {
+  border-bottom: 3px solid black;
+  cursor: pointer;
+}
