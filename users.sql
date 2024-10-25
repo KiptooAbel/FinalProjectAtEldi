@@ -3,5 +3,5 @@ CREATE TABLE users (
     users_uid TINYTEXT NOT NULL,
     users_pwd LONGTEXT NOT NULL,
     users_email TINYTEXT NOT NULL,
-    users_email TINYTEXT NOT NULL
+    users_role TINYTEXT NOT NULL
 );
